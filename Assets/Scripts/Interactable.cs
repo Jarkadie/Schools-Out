@@ -12,6 +12,7 @@ public class Interactable : MonoBehaviour
 
     public string entityName;
     public string description;
+     public int Id;
     [SerializeField] private AnimationClip actionAnimation;
 
 }
